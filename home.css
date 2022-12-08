@@ -1,0 +1,267 @@
+nav{ display: flex;
+/*background-color: rgb(23,24,25);*/
+height: 75px;
+width: 100%;
+padding-bottom: 15px;
+position:fixed;
+border-bottom: 1px;
+border-right: 0px;
+border-left: 0px;
+border-top: 0px;
+border-style: outset;
+background-blend-mode: normal;
+margin-top: 0px;
+}
+
+
+#mainLogo{ display: flex;
+padding-top: 15px;
+padding-left: 25px;}
+
+
+.navList{ 
+height: 65px;
+padding-left: 50px;}
+
+
+h1,h2{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+    font-size:medium;
+
+color: aliceblue;}
+
+
+.mainList{display: flex;
+    margin-left: 650px;}
+
+
+    #contactList{display:none;}
+
+
+
+li {list-style: none;}
+   
+
+
+
+
+    button {width: 200px;
+   
+margin-top: -11px;
+cursor: pointer;
+}
+
+
+
+    #phoneNumber,#email{display: flex;}
+
+
+    .phoneIcon,.emailIcon{height: 20px;
+    width: 20px;
+     padding-right: 10px;
+    padding-left: 20px;}
+
+
+
+    .contactList{
+        background-color:rgb(232, 166, 86);
+        border-style: ridge;
+        border-color: black;
+        margin-right: 20px;
+    }
+#home:hover{
+   
+    color :  rgb(221, 155, 74);
+    text-decoration: underline;
+
+}
+#contact:hover{
+   
+    color :   rgb(221, 155, 74);
+    text-decoration: underline;
+   
+}
+#reservation:hover{
+   
+    color :   rgb(221, 155, 74);
+    text-decoration: underline;
+
+}
+#gallary:hover{
+   
+    color :  rgb(221, 155, 74);
+    text-decoration: underline;
+}
+
+
+#home{color :  rgb(221, 155, 74);}
+.contact:hover #contactList {
+    display: flex;
+    flex-direction: column;
+
+    
+}
+.contactList:hover {
+    text-decoration: underline;
+}
+
+
+.section1{background-image: url(https://kalanidhithemes.com/live-preview/landing-page/delici/all-demo/Delici-Defoult/images/background/banner-image-1.jpg) ;
+background-color: rgb(95, 99, 105);
+background-blend-mode:multiply;}
+
+
+
+
+
+.reserve{color :   rgb(221, 155, 74);
+    
+   
+    padding-left: 700px;
+    padding-top: 200px;
+    height: 20px;
+    width: 100px;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    
+    line-height: inherit;
+    text-transform: uppercase;
+    letter-spacing: 0.40em;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:small
+    
+
+}
+
+
+.seperation{
+    height: 25px;
+width: 150px;
+ 
+margin-top: 10px;
+padding-left: 670px;
+
+
+}
+
+.welcoming{
+    padding-top: 20px;
+    
+    text-align: center;
+   
+  
+    padding-bottom: 250px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 0.30em;
+   
+}
+
+
+body{
+    background-color: rgb(23,24,25);
+}
+
+
+p{ color: aliceblue;
+text-align: center;
+margin-top: 40px;}
+
+
+
+
+.welcome{color :   rgb(221, 155, 74);
+    font-family:'Times New Roman', Times, serif;
+     line-height: inherit;
+    text-transform: uppercase;
+    letter-spacing: 0.40em;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:small;
+    padding-top: 200px;
+}
+
+
+
+    .seperation2{
+        height: 25px;
+        width: 150px;
+          margin-top: 10px;
+        
+        
+    }
+
+    
+
+
+
+
+.body2{
+    text-align: center;
+}
+
+
+
+.body3{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.choose{
+    width: 350px;
+    height: 520px;
+    text-align: center;
+    margin-top: 350px;
+    
+
+
+}
+
+#restaurants{
+    background-image: url(https://images.unsplash.com/photo-1578758391363-1ea37a77ec87?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80);
+
+
+
+}
+
+#coffes{
+    background-image: url(https://images.unsplash.com/photo-1542372147193-a7aca54189cd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8Y29mZmUlMjBzaG9wfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+justify-content: center;     
+margin-top: 130px;
+/*padding-bottom: 50px;*/
+}
+
+#lounges{
+    background-image: url(https://images.unsplash.com/photo-1615553186013-06b13fe822e1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=410&q=80);
+}
+
+
+.middle{
+    margin-top: 0px;
+    padding-top: 0px;
+    text-align: center;
+}
+
+
+.pp{
+    margin-top: 170px;
+    font-style: italic;
+    font-stretch: expanded;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#coffee{ margin-top: 250px;}
+
+
+
+.zoom {
+    transition: transform .2s;
+    width: 350px;
+    height: 520px;
+    text-align: center;
+    margin-top: 350px;
+  }
+  
+  .zoom:hover {
+    transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
